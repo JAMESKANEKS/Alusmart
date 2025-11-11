@@ -107,6 +107,7 @@ nav ul li:hover {
 .sec2 {
     height: 50vh;
     background-color: rgb(63, 63, 63);
+    overflow: scroll;
 }
 .sec2 .title {
     width: 100%;
@@ -114,6 +115,7 @@ nav ul li:hover {
     justify-content: center;
     padding: 2% 0;
     color: white;
+    
 }
 .sec2 .do {
     display: flex;
@@ -121,6 +123,7 @@ nav ul li:hover {
     align-items: center;
     color: white;
     gap: 5%;
+    flex-wrap: wrap;
 }
 .sec2 .do img{
     border: solid 5px;
